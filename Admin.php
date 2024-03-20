@@ -1,5 +1,5 @@
 <?php
-require 'User.php';
+require_once 'User.php';
 class Admin extends User {
     public function __construct($name, $surname, $username) {
         parent::__construct($name, $surname, $username);
