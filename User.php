@@ -1,9 +1,9 @@
 <?php
 
 class User {
-    public $name;
-    public $surname;
-    public $username;
+    public string $name;
+    public string $surname;
+    public string $username;
     protected $is_admin = false;
 
     public function __construct($name, $surname, $username) {
