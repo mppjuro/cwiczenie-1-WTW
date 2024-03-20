@@ -1,9 +1,9 @@
 <?php
-require 'User.php';
+require_once 'User.php';
 class Client extends User {
-    private $city;
-    private $state;
-    private $country;
+    private string $city;
+    private string $state;
+    private string $country;
 
     public function getCity()
     {
