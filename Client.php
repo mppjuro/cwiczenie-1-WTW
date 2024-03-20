@@ -49,12 +49,8 @@ class Client extends User {
         $this->country = $country;
     }
 
-    public function getLocation() {
-        return "$this->city, $this->state, $this->country";
-    }
-
     public function location() {
-        return $this->getLocation();
+        return "$this->city, $this->state, $this->country";
     }
 }
 
